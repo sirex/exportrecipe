@@ -1,6 +1,8 @@
 __pycache__
 .coverage
 .ropeproject
+dist
+build
 .tox
 *.egg-info
 *.pyc

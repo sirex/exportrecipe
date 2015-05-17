@@ -4,6 +4,15 @@
 .. image:: https://coveralls.io/repos/sirex/exportrecipe/badge.svg
    :target: https://coveralls.io/r/sirex/exportrecipe
 
+.. image:: https://pypip.in/d/exportrecipe/badge.svg
+   :target: https://pypi.python.org/pypi/exportrecipe/
+
+.. image:: https://pypip.in/v/exportrecipe/badge.svg
+   :target: https://pypi.python.org/pypi/exportrecipe/
+
+.. image:: https://pypip.in/license/exportrecipe/badge.svg
+   :target: https://pypi.python.org/pypi/exportrecipe/
+
 ----
 
 This is a Buildout recipe, that can export buildout configuration to JSON file.
