@@ -1,10 +1,21 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='exportjsonrecipe',
+    name='exportrecipe',
     version=0.1,
     packages=find_packages(),
-    entry_points={
-        'zc.buildout': ['default = exportjsonrecipe:ExportJsonRecipe'],
+    install_requires=[
+        'zc.buildout',
+    ],
+    extras_require={
+        'tests': ['mock'],
     },
+    entry_points={
+        'zc.buildout': ['default = exportrecipe:ExportRecipe'],
+    },
+    classifiers=[
+        'Intended Audience :: Developers',
+        'Intended Audience :: System Administrators',
+        'Topic :: Software Development',
+    ],
 )
