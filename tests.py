@@ -54,3 +54,8 @@ class HelperTests(unittest.TestCase):
         with mock.patch('exportrecipe.open', mock.mock_open(read_data='{"option": "value"}'), create=True):
             config = exportrecipe.load('settings.json')
         self.assertEqual(config.option, 'value')
+
+    def test_load_with_dashes(self):
+        with mock.patch('exportrecipe.open', mock.mock_open(read_data='{"option-name": "value"}'), create=True):
+            config = exportrecipe.load('settings.json')
+        self.assertEqual(config.option_name, 'value')
