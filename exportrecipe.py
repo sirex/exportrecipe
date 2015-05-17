@@ -28,6 +28,6 @@ def make_identifier(key):
 def load(path):
     with open(path) as f:
         data = json.load(f)
-    data = {make_identifier(key.replace('-', '_')): value for key, value in data.items()}
+    data = {make_identifier(key): value for key, value in data.items()}
     Config = collections.namedtuple('Config', data.keys())
     return Config(**data)
