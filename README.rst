@@ -1,3 +1,11 @@
+.. image:: https://travis-ci.org/sirex/exportrecipe.svg
+   :target: https://travis-ci.org/sirex/exportrecipe
+
+.. image:: https://coveralls.io/repos/sirex/exportrecipe/badge.svg
+   :target: https://coveralls.io/r/sirex/exportrecipe
+
+----
+
 This is a Buildout recipe, that can export buildout configuration to JSON file.
 Later this exported file can be used to get exported settings and use them in
 your project.
