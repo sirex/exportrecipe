@@ -4,13 +4,13 @@
 .. image:: https://coveralls.io/repos/sirex/exportrecipe/badge.svg
    :target: https://coveralls.io/r/sirex/exportrecipe
 
-.. image:: https://pypip.in/d/exportrecipe/badge.svg
+.. image:: https://img.shields.io/pypi/dm/exportrecipe.svg
    :target: https://pypi.python.org/pypi/exportrecipe/
 
-.. image:: https://pypip.in/v/exportrecipe/badge.svg
+.. image:: https://img.shields.io/pypi/v/exportrecipe.svg
    :target: https://pypi.python.org/pypi/exportrecipe/
 
-.. image:: https://pypip.in/license/exportrecipe/badge.svg
+.. image:: https://img.shields.io/pypi/l/exportrecipe.svg
    :target: https://pypi.python.org/pypi/exportrecipe/
 
 ----
